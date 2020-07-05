@@ -1,0 +1,131 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #8c8cf1;
+  color:floralwhite
+}
+
+.text-center{
+  text-align: center;
+}
+
+.container{
+  width:60%;
+  margin:10% auto;
+}
+
+.ListItems{
+  background-color: floralwhite;
+  color: #121268;
+  text-align: center;
+}
+
+p {
+  color:red;
+  text-align: center;
+  padding:2px 0px;
+  margin: 0 auto;
+  font-size: large;
+  font-weight: 500;
+  background-color: yellow;
+}
+
+.ListItems span{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 20px;
+  border:0.4px solid rgb(236, 129, 129);
+
+}
+.ListItems span.title{
+  background: rgb(238, 189, 238);
+  color:white;
+
+}
+
+
+
+
+
+ .name
+{
+  display: inline-block;
+  width:30%;
+  background:#86f1e0;
+  text-align: center;
+  padding:5px 0px;
+  border:0.4px solid #8449e4;
+  color:#723f3f
+
+}
+form input[type=text]
+{
+  width:30%;
+}
+
+
+
+
+
+ .age{
+  display: inline-block;
+  width:60%; 
+  background: #86f1e0;
+  text-align: center;
+  padding:5px 0px;
+  border:0.4px solid #8449e4;
+  color:#723f3f
+
+}
+form input[type=number]
+{
+  width:60%;
+}
+
+ .action{
+  display: inline-block;
+  width:10%;
+  background: #86f1e0;
+  text-align: center;
+  padding:5px 0px;
+  border:0.4px solid #8449e4;
+  color:#723f3f
+
+
+}
+form input[type=submit]{
+  width:10%;
+}
+
+
+ .icon{
+  color:red;
+  cursor: pointer;
+  font-weight: 900;
+ }
+.icon:hover{
+  background: black;
+}
+form input{
+padding:10px;
+background: wheat;
+border:transparent;
+border:0.3px solid #ccc
+}
+
+form input[type=submit]{
+
+  background: #e6b967;
+  border:0.3px solid #ccc;
+  cursor: pointer;
+  }
+
+  form input[type=submit]:hover{
+    background-color: #e709ca;
+    color: #ecec8d;
+    font-weight: bold;
+  }
